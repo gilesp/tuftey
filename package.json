@@ -1,0 +1,17 @@
+{
+  "name": "mercurybookmarklet",
+  "version": "1.0.0",
+  "description": "Bookmarklet for generating readable version of current webpage using the mercury api",
+  "main": "index.js",
+  "author": "Giles Paterson <giles@vurt.uk>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^1.0.1",
+    "raw-loader": "^0.5.1",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {}
+}
