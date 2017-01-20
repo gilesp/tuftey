@@ -1,3 +1,4 @@
+/* global: MERCURY_API_KEY */
 (function () {
   "use strict";
 
@@ -23,7 +24,7 @@
       };
 
       xhr.getJSON(urlBase + articleUrl,
-                  {"x-api-key": "MERCURY_API_KEY"},
+                  {"x-api-key": MERCURY_API_KEY},
                   parseResponse);
 
     }

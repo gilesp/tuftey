@@ -12,6 +12,10 @@ var config = {
   },
   plugins: [
 
+    new webpack.DefinePlugin({
+      MERCURY_API_KEY: "\"" + process.env.MERCURY_API_KEY + "\""
+    }),
+    
     new webpack.optimize.UglifyJsPlugin({
       mangle: true,
       compress: {
