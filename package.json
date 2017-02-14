@@ -6,7 +6,8 @@
   "author": "Giles Paterson <giles@vurt.uk>",
   "license": "MIT",
   "scripts": {
-    "build": ": ${MERCURY_API_KEY:?Mercury API key not specified}; webpack"
+    "prebuild": ": ${MERCURY_API_KEY:?Mercury API key not specified}",
+    "build": "webpack"
   },
   "devDependencies": {
     "extract-text-webpack-plugin": "^1.0.1",
